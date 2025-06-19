@@ -1,57 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animation</title>
-
-  <!-- CSS Files -->
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="css/swiper.min.css" />
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-
-  <!-- JS Libraries -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/swiper.min.js"></script>
-
-  <!-- model-viewer script -->
+  <meta charset="UTF-8" />
+  <title>3D Model Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
-<body>
+<body style="text-align:center; padding: 20px;">
 
-  <div class="sub_container text-center">
-    <div class="mainlogo">
-      <h2 class="title">FATT SE CHILL</h2>
+  <h1>FATT SE CHILL - Summer Sale</h1>
 
-      <h3 class="lg35 md35 sm30 xs25 Outfit-Regular lh110 mt1 paragraph_1">
-        Limited Period 
-      </h3>
-
-      <span class="lg70 md40 sm35 xs28 w700 sacram paragraph_2" style="color: #ffd503;">Summer Sale</span>
-
-      <!-- ✅ FIXED model-viewer -->
-      <model-viewer
-        src="animation/girl_beautiful_lady.glb"
-        alt="3D Model"
-        auto-rotate
-        camera-controls
-        style="width: 100%; height: 500px;"
-        background-color="#ffffff">
-      </model-viewer>
-    </div>
-  </div>
-
-  <!-- GSAP + Bootstrap -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+  <model-viewer
+    src="animation/girl_beautiful_lady.glb"
+    alt="3D Model"
+    auto-rotate
+    camera-controls
+    style="width: 600px; height: 500px;">
+  </model-viewer>
 
 </body>
 </html>
