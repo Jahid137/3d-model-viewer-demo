@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>3D Model Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <title>3D Model Viewer Test</title>
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
-<body style="text-align:center; padding: 20px;">
+<body style="text-align:center; padding: 30px; font-family: sans-serif;">
+  <h1>Summer Sale 3D Model</h1>
 
-  <h1>FATT SE CHILL - Summer Sale</h1>
-
-  <model-viewer
+  <model-viewer 
     src="animation/girl_beautiful_lady.glb"
     alt="3D Model"
-    auto-rotate
-    camera-controls
-    style="width: 600px; height: 500px;">
+    auto-rotate 
+    camera-controls 
+    style="width: 600px; height: 500px; background-color: #f3f3f3;">
+    <p>Your browser does not support model-viewer.</p>
   </model-viewer>
 
-  <!-- gsap_js -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </body>
 </html>
