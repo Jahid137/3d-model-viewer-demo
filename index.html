@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>3D Model Viewer Test</title>
+  <meta charset="UTF-8" />
+  <title>Summer Sale 3D Model</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Correct model-viewer script -->
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
-<body style="text-align:center; padding: 30px; font-family: sans-serif;">
+<body style="text-align:center; padding: 30px;">
+
   <h1>Summer Sale 3D Model</h1>
 
   <model-viewer 
-    src="animation/girl_beautiful_lady.glb"
-    alt="3D Model"
-    auto-rotate 
-    camera-controls 
+    src="girl_beautiful_lady.glb"
+    alt="3D model"
+    auto-rotate
+    camera-controls
     style="width: 600px; height: 500px; background-color: #f3f3f3;">
-    <p>Your browser does not support model-viewer.</p>
+    <p>Browser not supported</p>
   </model-viewer>
 
 </body>
 </html>
+
